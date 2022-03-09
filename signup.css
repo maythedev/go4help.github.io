@@ -1,0 +1,186 @@
+html, * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*justify-content: center;*/
+}
+
+.body {
+    width: 75%;
+}
+
+header{
+    border-bottom: 3px solid lightgrey;
+    padding: 10px 0px;
+}
+
+h1, h4, h6, p {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.image-box {
+    flex-basis: 40%;
+    align-self: stretch;
+}
+
+.form-box {
+    text-align: center;
+    align-self: stretch;
+    flex-basis: 60%;
+    border: 2px solid lightgrey;
+    padding: 50px;
+}
+
+.welcome {
+    color: #DD0000;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.account {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+	display: block;
+}
+
+.head {
+    color: lightgrey;
+    opacity: 1;
+    border: 2px solid lightgrey;
+}
+
+img.lady {
+    width: 100%;
+    height: 100%;
+    /*height: 540px;
+    float: left;
+    padding: 0 1rem 1rem 0;
+    margin: 0 1rem 2rem 2rem;*/
+}
+
+.create {
+    color: #DD0000;
+    text-decoration: none;
+}
+
+.signin {
+    color: #DD0000;
+}
+
+.gbt {
+    width: 30px;
+    height: 30px;
+}
+
+.design {
+    color: black;  
+    text-decoration: none;
+}
+
+.btn {
+    background-color: white;
+    border: 3px solid whitesmoke;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 13px;
+    padding: 2px 5px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.btn:first-child {
+    margin-right: 10px;
+}
+
+.btn span {
+    margin-left: 13px;
+}
+
+.vl-innertext {
+    /*width: 60%;*/
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    /*font-weight:300;*/
+    
+}
+
+.vl-innertext:before, .vl-innertext:after {
+    content: "";
+    display: inline-block;
+    width: 45%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+    color: lightgrey
+  }
+    
+.vl-innertext:after {
+    margin: 0 -55% 0 .5em;
+  } 
+    
+input[type="email"], input[type="password"]  {
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 8px ;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    cursor: text;
+}
+  
+input[type="email"], input[type="password"] :hover {
+    opacity: 1;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 10px 60px;
+    margin-top: 40px;
+}
+
+.tnc {
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+.fp {
+    font-size: 11px;
+    color: red;
+}
+
+.forgot {
+    margin-top: 40px;
+}
